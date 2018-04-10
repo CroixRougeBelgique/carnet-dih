@@ -1,0 +1,260 @@
+@charset "UTF-8";
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	background-color: #dedede;
+	margin: 0;
+	padding: 0;
+	color: #4c4c4c;
+	background-image: url('../imgs/fondhome.jpg');
+	background-repeat: repeat;
+}
+/* ~~ Element/tag selectors ~~ */
+ul, ol, dl, tr, td { 
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin:0;
+	padding:0;
+}
+img {
+	padding:0;
+	margin:0;
+	display:block;
+}
+a img {
+	border: none;
+}
+/* ~~ Styling for your site's links must remain in this order - including the group of selectors that create the hover effect. ~~ */
+a:link {
+	color: #42413C;
+	text-decoration: underline;
+}
+a:visited {
+	color: #6E6C64;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus { 
+	text-decoration: none;
+}
+/* ~~ this fixed width container surrounds the other divs ~~ */
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+/* ~~ the header is not given a width. It will extend the full width of the layout. ~~ */
+#header {
+	margin-top:16px;
+	margin-bottom:16px;
+}
+/* ~~ Top menu ~~ 
+*/
+#Table_menu_top {
+	position:relative;
+	left:0px;
+	top:0px;
+	margin-top:8px;
+	width:960px;
+	height:64px;
+	margin-bottom:12px;
+}
+#topmenu-01 {
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:160px;
+	height:64px;
+	background-image:url("../imgs/topmenu/topmenu_o_01.jpg");
+}
+#topmenu-02 {
+	position:absolute;
+	left:160px;
+	top:0px;
+	width:110px;
+	height:64px;
+	background-image:url("../imgs/topmenu/topmenu_o_02.jpg");
+}
+#topmenu-03 {
+	position:absolute;
+	left:270px;
+	top:0px;
+	width:143px;
+	height:64px;
+	background-image:url("../imgs/topmenu/topmenu_o_03.jpg");
+}
+#topmenu-04 {
+	position:absolute;
+	left:413px;
+	top:0px;
+	width:155px;
+	height:64px;
+	background-image:url("../imgs/topmenu/topmenu_o_04.jpg");
+}
+#topmenu-05 {
+	position:absolute;
+	left:568px;
+	top:0px;
+	width:127px;
+	height:64px;
+	background-image:url("../imgs/topmenu/topmenu_o_05.jpg");
+}
+#topmenu-06 {
+	position:absolute;
+	left:695px;
+	top:0px;
+	width:143px;
+	height:64px;
+	background-image:url("../imgs/topmenu/topmenu_o_06.jpg");
+}
+#topmenu-07 {
+	position:absolute;
+	left:838px;
+	top:0px;
+	width:122px;
+	height:64px;
+	background-image:url("../imgs/topmenu/topmenu_o_07.jpg");
+}
+#topmenu-01 a img,
+#topmenu-02 a img,
+#topmenu-03 a img,
+#topmenu-04 a img,
+#topmenu-05 a img,
+#topmenu-06 a img,
+#topmenu-07 a img {
+	#-webkit-transition: opacity 0.3s ease-in-out;
+	-moz-transition: opacity 0.3s ease-in-out;
+	-o-transition: opacity 0.3s ease-in-out;
+	transition: opacity 0.3s ease-in-out;
+}
+#topmenu-01 a:hover img,
+#topmenu-02 a:hover img,
+#topmenu-03 a:hover img,
+#topmenu-04 a:hover img,
+#topmenu-05 a:hover img,
+#topmenu-06 a:hover img,
+#topmenu-07 a:hover img {
+	opacity:0;
+}
+
+/* ~~ This is the layout information. ~~ 
+*/
+.rotorgin {
+	text-transform:uppercase;
+	font-size:12px;
+	font-weight:bold;
+	width:160px;
+	transform:rotate(270deg);
+	transform-origin:74px 82px;
+	-ms-transform:rotate(270deg);
+	-ms-transform-origin:74px 82px;
+	-webkit-transform:rotate(270deg);
+	-webkit-transform-origin:74px 82px;
+}
+#carte01, #carte02a, #carte02b, #carte03a, #carte03b, #carte03c, {
+	display:block;
+	position:relative;
+} 
+#zone01, #zone02 {
+	display:block;
+	position:absolute;
+	z-index:-1;
+	width: 960px;
+	padding: 8px 0 0 8px;
+	text-align:right;
+}
+
+#carte01 {
+	margin-top:16px;
+} 
+#zone01 {
+	border-left:solid 7px #5c66ad;
+	color:#5c66ad;
+	border-top:solid 1px #AAA;
+	height:495px;
+}
+#zone02 {
+	margin-top:530px;
+	border-left:solid 7px #5d8d43;
+	min-height:300px;
+	color:#5d8d43;
+}
+
+#dihmap01 {
+	display:block;
+}
+#dihmap02a {
+
+}
+#dihmap02b {
+
+}
+
+#barres {display:inline;margin-right:40px;}
+
+#tabs-22b-2, #tabs-22b-3,  {
+	border-left:solid 8px #5d8d43;
+}
+
+/* ~~ The footer ~~ */
+#ginfooter {
+	display:block;
+	position:relative;
+	padding: 10px 0;
+}
+
+/* ~~ miscellaneous float/clear classes ~~ */
+.fltrt { 
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { 
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { 
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+.footmenu {
+	font-size:12px;
+	color:#9b0505;
+	text-transform:uppercase;
+}
+.footmenu a {
+	color:#9b0505;
+	text-decoration:none;
+	font-weight:bold;
+	opacity:0.55;
+	#-webkit-transition: opacity 0.3s ease-in-out;
+	-moz-transition: opacity 0.3s ease-in-out;
+	-o-transition: opacity 0.3s ease-in-out;
+	transition: opacity 0.3s ease-in-out;
+}
+.footmenu a:hover {
+	opacity:1;
+}
+
+/* ~~ boutons credits~~ */
+#credits, #credits2 { 
+	display: block;
+	width: 59px;
+	height: 23px;
+	background: url("../imgs/credits.png") no-repeat 0 0;
+}
+#credits { float: right; }	
+#credits2 { float: left;margin-left:48px;margin-top:-4px; }	
+#credits:hover, #credits2:hover { 
+	background-position: 0 -23px;
+}
+#credits span, #credits2 span  {
+  position: absolute;
+  top: -999em;
+}
+
+
+
+
+

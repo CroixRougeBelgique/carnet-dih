@@ -1,0 +1,152 @@
+@charset "UTF-8";
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	background-color: #FFFFFF;
+	margin: 0;
+	padding: 0;
+	color: #4c4c4c;
+}
+/* ~~ Element/tag selectors ~~ */
+ul, ol, dl, tr, td { 
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin:0;
+	padding:0;
+}
+img {
+	padding:0;
+	margin:0;
+	display:block;
+}
+a img {
+	border: none;
+}
+/* ~~ Styling for your site's links must remain in this order - including the group of selectors that create the hover effect. ~~ */
+a:link {
+	color: #42413C;
+	text-decoration: underline;
+}
+a:visited {
+	color: #6E6C64;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus { 
+	text-decoration: none;
+}
+/* ~~ this fixed width container surrounds the other divs ~~ */
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+/* ~~ the header is not given a width. It will extend the full width of the layout. ~~ */
+#header {
+	margin-top:16px;
+	margin-bottom:16px;
+}
+/* ~~ Top menu ~~ 
+*/
+#Table_menu_top {
+	display:none;
+}
+
+/* ~~ This is the layout information. ~~ 
+*/
+.rotorgin {
+	text-transform:uppercase;
+	font-size:12px;
+	font-weight:bold;
+	width:160px;
+	transform:rotate(270deg);
+	transform-origin:74px 82px;
+	-ms-transform:rotate(270deg);
+	-ms-transform-origin:74px 82px;
+	-webkit-transform:rotate(270deg);
+	-webkit-transform-origin:74px 82px;
+}
+#carte01, #carte02a, #carte02b, #carte03a, #carte03b, #carte03c, {
+	display:block;
+	position:relative;
+} 
+#zone01, #zone02 {
+	display:block;
+	position:absolute;
+	z-index:-1;
+	width: 960px;
+	padding: 8px 0 0 8px;
+	text-align:right;
+}
+
+#carte01 {
+	margin-top:16px;
+} 
+#zone01 {
+	border-left:solid 7px #5c66ad;
+	color:#5c66ad;
+	border-top:solid 1px #AAA;
+	height:495px;
+}
+#zone02 {
+	margin-top:530px;
+	border-left:solid 7px #5d8d43;
+	min-height:300px;
+	color:#5d8d43;
+}
+
+#dihmap01 {
+	display:block;
+}
+#dihmap02a {
+
+}
+#dihmap02b {
+
+}
+
+#barres {display:inline;margin-right:40px;}
+
+#tabs-22b-2, #tabs-22b-3,  {
+	border-left:solid 8px #5d8d43;
+}
+
+/* ~~ The footer ~~ */
+#ginfooter {
+	display:block;
+	position:relative;
+	padding: 10px 0;
+}
+
+/* ~~ miscellaneous float/clear classes ~~ */
+.fltrt { 
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { 
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { 
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+.footmenu {
+	display:none;
+}
+#foot_01, #foot_03, #foot_05 {
+	display:none;
+}
+#foot_02 {
+	height:147px;
+}
+
+/* ~~ boutons credits~~ */
+#credits, #credits2 { 
+	display: none;
+}
+
+
+

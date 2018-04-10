@@ -1,0 +1,203 @@
+/* ~~ Element/tag selectors ~~ 
+a:link {
+	color:#414958;
+	text-decoration: underline; 
+}
+a:visited {
+	color: #4E5869;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus { 
+	text-decoration: none;
+}
+*/
+#bgcontent {
+	display:none;
+}
+#content {
+	margin:16px 0 16px 0;
+	border: solid 1px #AAA;
+	font-size: 15px;
+	line-height:20px;
+	padding: 48px 128px 48px 64px ;
+}
+#ginframe_sumup {
+	width:724px;
+	border: solid 1px #999;
+	padding:32px;
+	background-color: #F9F9F9;
+	border-radius: 12px;
+}
+#ginframe_arrows {
+	width:724px;
+	border: solid 1px #999;
+	padding: 16px 32px 16px 32px;
+	background-color: #F9F9F9;
+	border-radius: 12px;
+	text-align:center;
+}
+#ginframe_arrows img {
+	display:inline;
+}
+.ginred{
+	color:#a22222;
+}
+#ginframe_source {
+	width:724px;
+	border: solid 1px #999;
+	padding: 4px 32px 16px 32px;
+	background-color: #F9F9F9;
+	border-radius: 12px;
+	font-size:12px;
+}
+p {
+	margin:0; padding 0;
+}
+.bigtitre {
+	color:#A22222;
+	font-weight:bold;
+	font-size:24px;
+	text-transform:uppercase;
+	line-height: 32px;
+	text-align:center;
+}
+.bigtitre img {
+	margin-left:20px;
+}
+td.bigtitre {
+	text-align:left;
+}
+.gintit01 {
+	display:inline-block;
+	text-transform:uppercase;
+	font-weight:bold;
+	font-size:14px;
+	padding-bottom:4px;
+	border-bottom:solid 1px #AAAAAA;
+	margin-top:16px;
+	margin-bottom:8px;
+}
+.gintit02 {
+	display:inline-block;
+	text-transform:uppercase;
+	font-size:14px;
+	margin-top:4px;
+	margin-bottom:4px;
+}
+.gintit02 i.fa-book {
+	font-size:22px;
+	color:#811111;
+}
+.ginbigstar{
+	display:inline-block;
+	margin-top:4px;
+	margin-bottom:8px;
+	padding-left:28px;
+	font-weight: bold;
+	color:#a22222;
+	background-image:url(star.png);
+	background-repeat:no-repeat;
+	background-position:left top;
+}
+.ginbigexcla{
+	display:inline-block;
+	line-height:27px;
+	margin-top:2px;
+	margin-bottom:12px;
+	padding-left:40px;
+	font-weight: bold;
+	color:#a22222;
+	background-image:url(excla.png);
+	background-repeat:no-repeat;
+	background-position:left top;
+}
+.ginbigarrow{
+	display:inline-block;
+	margin-top:4px;
+	margin-bottom:8px;
+	padding-left:28px;
+	font-weight: bold;
+	color:#a22222;
+	background-image:url(fleche_droite.png);
+	background-repeat:no-repeat;
+	background-position:left top;
+}
+.ginstar{
+	display:inline-block;
+	margin-top:8px;
+	margin-bottom:8px;
+	padding-left:28px;
+	color:#a22222;
+	background-image:url(star.png);
+	background-repeat:no-repeat;
+	background-position:left top;
+}
+.ginarrow{
+	display:inline-block;
+	margin-top:8px;
+	margin-bottom:8px;
+	padding-left:28px;
+	color:#a22222;
+	background-image:url(fleche_droite.png);
+	background-repeat:no-repeat;
+	background-position:left top;
+}
+p.ginchapo {
+	color: #5c5c5c;
+	font-size:18px;
+	font-weight:bold;
+	letter-spacing:0.04em;
+	line-height: 26px;
+	text-align:left;
+}
+.ginblack{
+	color: #000000;
+}
+#gincadre img {
+	margin-right:16px;
+}
+#gincadre .bigtitre {
+	padding-top:4px;
+	padding-left:4px;
+	font-size:18px;
+}
+.illudroite {
+	float:right;
+	margin:0 0 8px 16px;
+}
+
+/* ~~ This grouped selector gives the lists in the .content area space ~~ */
+#content ul, #content ol { 
+	padding: 4px 0 16px 14px;
+	list-style-image:url('bullet.png');
+}
+#content ul ul, #content ol ol { 
+	padding: 4px 0 4px 14px;
+	list-style-image:url('tiret.png');
+}
+#content ul li, #content ol li { 
+	
+}
+
+/***** table fiche 19-25 ******/
+
+TABLE.armesregles td {
+	padding:4px 8px 4px 8px;
+}
+
+TABLE.armesregles TR.Table00 TD, 
+TABLE.armesregles TR.Table11 TD, 
+TABLE.armesregles TR.Table22 TD {
+	border-bottom:solid 1px #777777;
+}
+TABLE.armesregles TR.Table00 TD {
+	padding:8px 8px 8px 8px;
+	font-weight: bold;
+	background-color: #DBA;
+}
+TABLE.armesregles TR.Table22 TD {
+	background-color: #CCCCCC;
+}
+
+
+
